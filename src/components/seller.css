@@ -1,0 +1,39 @@
+.seller{
+    background-image: url("../assets/sellerba.jpg");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border:none;
+    background-size: cover;
+    font-size: 20px;
+}
+.farmer{
+    background: linear-gradient(0deg, rgba(41, 40, 40, 0.5), rgba(209, 202, 206, 0.5)),url("../assets/farming.jpg");
+    border:none;
+    background-size: cover;
+    font-size: 20px;
+    height:60rem;
+    color:white;
+}
+.region{
+    width:90%;
+}
+.listButton{
+    width:200px;
+    margin:35px 50%;
+}
+.listButtons{
+    background: linear-gradient(45deg, #a57d34 0%, #dda65e 54%, #cc711c 100%);
+}
+.listButtonsdiv
+{
+        width: 100%;
+        padding: 3rem 2rem 0 2rem;
+        float: right;       
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
